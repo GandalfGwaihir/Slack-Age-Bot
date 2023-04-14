@@ -23,7 +23,7 @@ func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent){
 }
 
 func main(){
-
+	//These tokens are disabled/deprecated from my end so that no misuse of api keys would happen
 	os.Setenv("SLACK_BOT_TOKEN", "xoxb-5103732507206-5107423134357-PVhtmroPCLbP0FQFYXBEkF31") //for demonstation i have used this in the code, always declare all api keys in .env file
 	os.Setenv("SLACK_APP_TOKEN", "xapp-1-A053Y0WTFK2-5110218401155-41634dc2e9690a67c38ba43f45ec506fe3de89ec36a620106a66855a52ebe3d3")
 
